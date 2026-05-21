@@ -18,7 +18,7 @@ export default function App() {
 
       <Link href="/subscriptions/spotify">Spotify Subscription</Link>
       <Link href={{
-        pathname:"/(tabs)/subscriptions/[id]",
+        pathname:"/subscriptions/[id]",
         params: {id: "claude"}
       }}>Claude Subscription</Link>
     </View>
